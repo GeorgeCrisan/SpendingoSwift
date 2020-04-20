@@ -14,6 +14,10 @@
 		0DA7C056244E229E0036B684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7C055244E229E0036B684 /* Assets.xcassets */; };
 		0DA7C059244E229F0036B684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7C058244E229E0036B684 /* Preview Assets.xcassets */; };
 		0DA7C05C244E229F0036B684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7C05A244E229F0036B684 /* LaunchScreen.storyboard */; };
+		0DBF3831244E25AF00981A29 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3830244E25AF00981A29 /* Badge.swift */; };
+		0DBF3833244E25B900981A29 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3832244E25B800981A29 /* BadgeBackground.swift */; };
+		0DBF3835244E25C000981A29 /* BadgeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3834244E25C000981A29 /* BadgeText.swift */; };
+		0DBF3837244E25C900981A29 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF3836244E25C900981A29 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		0DA7C058244E229E0036B684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DA7C05B244E229F0036B684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA7C05D244E229F0036B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBF3830244E25AF00981A29 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		0DBF3832244E25B800981A29 /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		0DBF3834244E25C000981A29 /* BadgeText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeText.swift; sourceTree = "<group>"; };
+		0DBF3836244E25C900981A29 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		0DA7C04E244E229E0036B684 /* SpendingoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0DBF3836244E25C900981A29 /* Fonts */,
+				0DBF382F244E258F00981A29 /* Badge */,
 				0D375966244E2383003B3322 /* Configs */,
 				0DA7C04F244E229E0036B684 /* AppDelegate.swift */,
 				0DA7C051244E229E0036B684 /* SceneDelegate.swift */,
@@ -76,6 +86,16 @@
 				0DA7C058244E229E0036B684 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DBF382F244E258F00981A29 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				0DBF3834244E25C000981A29 /* BadgeText.swift */,
+				0DBF3832244E25B800981A29 /* BadgeBackground.swift */,
+				0DBF3830244E25AF00981A29 /* Badge.swift */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBF3837244E25C900981A29 /* Fonts in Resources */,
 				0D375967244E2383003B3322 /* Configs in Resources */,
 				0DA7C05C244E229F0036B684 /* LaunchScreen.storyboard in Resources */,
 				0DA7C059244E229F0036B684 /* Preview Assets.xcassets in Resources */,
@@ -151,7 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA7C050244E229E0036B684 /* AppDelegate.swift in Sources */,
+				0DBF3831244E25AF00981A29 /* Badge.swift in Sources */,
+				0DBF3835244E25C000981A29 /* BadgeText.swift in Sources */,
 				0DA7C052244E229E0036B684 /* SceneDelegate.swift in Sources */,
+				0DBF3833244E25B900981A29 /* BadgeBackground.swift in Sources */,
 				0DA7C054244E229E0036B684 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
