@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D375967244E2383003B3322 /* Configs in Resources */ = {isa = PBXBuildFile; fileRef = 0D375966244E2383003B3322 /* Configs */; };
 		0DA7C050244E229E0036B684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C04F244E229E0036B684 /* AppDelegate.swift */; };
 		0DA7C052244E229E0036B684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C051244E229E0036B684 /* SceneDelegate.swift */; };
 		0DA7C054244E229E0036B684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C053244E229E0036B684 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D375966244E2383003B3322 /* Configs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configs; sourceTree = "<group>"; };
 		0DA7C04C244E229E0036B684 /* SpendingoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendingoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA7C04F244E229E0036B684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA7C051244E229E0036B684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		0DA7C04E244E229E0036B684 /* SpendingoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0D375966244E2383003B3322 /* Configs */,
 				0DA7C04F244E229E0036B684 /* AppDelegate.swift */,
 				0DA7C051244E229E0036B684 /* SceneDelegate.swift */,
 				0DA7C053244E229E0036B684 /* ContentView.swift */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D375967244E2383003B3322 /* Configs in Resources */,
 				0DA7C05C244E229F0036B684 /* LaunchScreen.storyboard in Resources */,
 				0DA7C059244E229F0036B684 /* Preview Assets.xcassets in Resources */,
 				0DA7C056244E229E0036B684 /* Assets.xcassets in Resources */,
