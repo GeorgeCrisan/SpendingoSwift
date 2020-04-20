@@ -11,7 +11,7 @@ import SwiftUI
 struct BadgeText: View {
     var body: some View {
         Text("SpendingoSwift")
-            .font(.custom("Mina-Bold", size: 40))
+            .font(.custom("Mina-Regular", size: 40))
     }
 }
 
