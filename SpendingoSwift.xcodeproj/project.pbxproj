@@ -18,6 +18,7 @@
 		0DBF3833244E25B900981A29 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3832244E25B800981A29 /* BadgeBackground.swift */; };
 		0DBF3835244E25C000981A29 /* BadgeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3834244E25C000981A29 /* BadgeText.swift */; };
 		0DBF3837244E25C900981A29 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0DBF3836244E25C900981A29 /* Fonts */; };
+		0DBF3839244E265D00981A29 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3838244E265D00981A29 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0DBF3832244E25B800981A29 /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		0DBF3834244E25C000981A29 /* BadgeText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeText.swift; sourceTree = "<group>"; };
 		0DBF3836244E25C900981A29 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		0DBF3838244E265D00981A29 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		0DBF382F244E258F00981A29 /* Badge */ = {
 			isa = PBXGroup;
 			children = (
+				0DBF3838244E265D00981A29 /* HexagonParameters.swift */,
 				0DBF3834244E25C000981A29 /* BadgeText.swift */,
 				0DBF3832244E25B800981A29 /* BadgeBackground.swift */,
 				0DBF3830244E25AF00981A29 /* Badge.swift */,
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBF3839244E265D00981A29 /* HexagonParameters.swift in Sources */,
 				0DA7C050244E229E0036B684 /* AppDelegate.swift in Sources */,
 				0DBF3831244E25AF00981A29 /* Badge.swift in Sources */,
 				0DBF3835244E25C000981A29 /* BadgeText.swift in Sources */,

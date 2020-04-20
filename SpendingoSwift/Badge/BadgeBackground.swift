@@ -59,7 +59,7 @@ struct BadgeBackground: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
         BadgeBackground()
     }
