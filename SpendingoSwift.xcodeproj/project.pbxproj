@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0D375967244E2383003B3322 /* Configs in Resources */ = {isa = PBXBuildFile; fileRef = 0D375966244E2383003B3322 /* Configs */; };
+		0D48E303244E691F0044EA7A /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48E302244E691F0044EA7A /* LoginForm.swift */; };
+		0D48E305244E75C80044EA7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D48E304244E75C80044EA7A /* GoogleService-Info.plist */; };
 		0DA7C050244E229E0036B684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C04F244E229E0036B684 /* AppDelegate.swift */; };
 		0DA7C052244E229E0036B684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C051244E229E0036B684 /* SceneDelegate.swift */; };
 		0DA7C054244E229E0036B684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C053244E229E0036B684 /* ContentView.swift */; };
@@ -18,16 +20,19 @@
 		0DBEBC91244E380A00BE5D5C /* FiraSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEBC90244E380A00BE5D5C /* FiraSans-Black.ttf */; };
 		0DBEBC93244E382C00BE5D5C /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEBC92244E382C00BE5D5C /* FiraSans-Regular.ttf */; };
 		0DBEBC96244E38DC00BE5D5C /* Mina-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEBC95244E38DC00BE5D5C /* Mina-Regular.ttf */; };
-		0DBEBC98244E3DE700BE5D5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEBC97244E3DE600BE5D5C /* GoogleService-Info.plist */; };
 		0DBF3831244E25AF00981A29 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3830244E25AF00981A29 /* Badge.swift */; };
 		0DBF3833244E25B900981A29 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3832244E25B800981A29 /* BadgeBackground.swift */; };
 		0DBF3835244E25C000981A29 /* BadgeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3834244E25C000981A29 /* BadgeText.swift */; };
 		0DBF3839244E265D00981A29 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBF3838244E265D00981A29 /* HexagonParameters.swift */; };
+		0DD96CA5244E49C5006D6049 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD96CA4244E49C5006D6049 /* SessionStore.swift */; };
+		0DD96CA8244E51C1006D6049 /* FrontPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD96CA7244E51C1006D6049 /* FrontPage.swift */; };
 		A837EA6D3A139390623995C2 /* Pods_SpendingoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F8944A6723E14F1305B3B9 /* Pods_SpendingoSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D375966244E2383003B3322 /* Configs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configs; sourceTree = "<group>"; };
+		0D48E302244E691F0044EA7A /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		0D48E304244E75C80044EA7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0DA7C04C244E229E0036B684 /* SpendingoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendingoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA7C04F244E229E0036B684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA7C051244E229E0036B684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +45,12 @@
 		0DBEBC90244E380A00BE5D5C /* FiraSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Black.ttf"; sourceTree = "<group>"; };
 		0DBEBC92244E382C00BE5D5C /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
 		0DBEBC95244E38DC00BE5D5C /* Mina-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mina-Regular.ttf"; sourceTree = "<group>"; };
-		0DBEBC97244E3DE600BE5D5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0DBF3830244E25AF00981A29 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		0DBF3832244E25B800981A29 /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		0DBF3834244E25C000981A29 /* BadgeText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BadgeText.swift; path = SpendingoSwift/LogoBadge/BadgeText.swift; sourceTree = SOURCE_ROOT; };
 		0DBF3838244E265D00981A29 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		0DD96CA4244E49C5006D6049 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		0DD96CA7244E51C1006D6049 /* FrontPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPage.swift; sourceTree = "<group>"; };
 		87F8944A6723E14F1305B3B9 /* Pods_SpendingoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpendingoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFB91751DEDEBA064C2AD5C /* Pods-SpendingoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpendingoSwift.debug.xcconfig"; path = "Target Support Files/Pods-SpendingoSwift/Pods-SpendingoSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F61485E71AD4C3C9D94D449C /* Pods-SpendingoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpendingoSwift.release.xcconfig"; path = "Target Support Files/Pods-SpendingoSwift/Pods-SpendingoSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +89,8 @@
 		0DA7C04E244E229E0036B684 /* SpendingoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0DD96CA6244E51AA006D6049 /* Views */,
+				0DD96CA3244E499E006D6049 /* Models */,
 				0DBEBC8A244E369900BE5D5C /* fonts */,
 				0DAEA800244E359A002E6D6B /* LogoBadge */,
 				0D375966244E2383003B3322 /* Configs */,
@@ -92,7 +100,7 @@
 				0DA7C055244E229E0036B684 /* Assets.xcassets */,
 				0DA7C05A244E229F0036B684 /* LaunchScreen.storyboard */,
 				0DA7C05D244E229F0036B684 /* Info.plist */,
-				0DBEBC97244E3DE600BE5D5C /* GoogleService-Info.plist */,
+				0D48E304244E75C80044EA7A /* GoogleService-Info.plist */,
 				0DA7C057244E229E0036B684 /* Preview Content */,
 			);
 			path = SpendingoSwift;
@@ -129,13 +137,29 @@
 			path = ../fonts;
 			sourceTree = "<group>";
 		};
+		0DD96CA3244E499E006D6049 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DD96CA4244E49C5006D6049 /* SessionStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DD96CA6244E51AA006D6049 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DD96CA7244E51C1006D6049 /* FrontPage.swift */,
+				0D48E302244E691F0044EA7A /* LoginForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3B928D4062E5D7DB29A52C6F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				AAFB91751DEDEBA064C2AD5C /* Pods-SpendingoSwift.debug.xcconfig */,
 				F61485E71AD4C3C9D94D449C /* Pods-SpendingoSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,9 +233,9 @@
 			files = (
 				0DBEBC96244E38DC00BE5D5C /* Mina-Regular.ttf in Resources */,
 				0DBEBC93244E382C00BE5D5C /* FiraSans-Regular.ttf in Resources */,
-				0DBEBC98244E3DE700BE5D5C /* GoogleService-Info.plist in Resources */,
 				0D375967244E2383003B3322 /* Configs in Resources */,
 				0DA7C05C244E229F0036B684 /* LaunchScreen.storyboard in Resources */,
+				0D48E305244E75C80044EA7A /* GoogleService-Info.plist in Resources */,
 				0DA7C059244E229F0036B684 /* Preview Assets.xcassets in Resources */,
 				0DA7C056244E229E0036B684 /* Assets.xcassets in Resources */,
 				0DBEBC8F244E380200BE5D5C /* FiraSans-Bold.ttf in Resources */,
@@ -270,7 +294,10 @@
 			files = (
 				0DBF3839244E265D00981A29 /* HexagonParameters.swift in Sources */,
 				0DA7C050244E229E0036B684 /* AppDelegate.swift in Sources */,
+				0DD96CA8244E51C1006D6049 /* FrontPage.swift in Sources */,
+				0DD96CA5244E49C5006D6049 /* SessionStore.swift in Sources */,
 				0DBF3831244E25AF00981A29 /* Badge.swift in Sources */,
+				0D48E303244E691F0044EA7A /* LoginForm.swift in Sources */,
 				0DBF3835244E25C000981A29 /* BadgeText.swift in Sources */,
 				0DA7C052244E229E0036B684 /* SceneDelegate.swift in Sources */,
 				0DBF3833244E25B900981A29 /* BadgeBackground.swift in Sources */,

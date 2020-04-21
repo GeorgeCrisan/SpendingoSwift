@@ -15,21 +15,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lsb" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tqq-wO-0L9">
-                                <rect key="frame" x="31" y="170" width="352" height="464"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchback" highlightedImage="launchback" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNw-Jh-NF0">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FJ3-Y1-gVw"/>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="X3i-o4-7jB"/>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ZsS-xo-8Rj"/>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="d6L-yK-3vm"/>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ewT-fh-XI0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gNw-Jh-NF0" secondAttribute="bottom" id="kFV-Qu-3lG"/>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vqL-z0-fvz"/>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wHu-Ww-BcG"/>
+                            <constraint firstItem="gNw-Jh-NF0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zuE-cL-f1r"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="50.625" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="lsb" width="326" height="458"/>
+        <image name="launchback" width="330" height="476"/>
     </resources>
 </document>
