@@ -79,13 +79,17 @@ struct SignInView: View {
             
             Spacer()
             
-            VStack {
+            /*VStack {
                 Button(action: session.toggleLV){
                     Text("Create an account.")
                         .font(.custom("Mina", size: 26))
                         .foregroundColor(Color.blue)
                 }
                 .padding(.horizontal, 32)
+            }*/
+            
+            NavigationLink(destination: SignUpView()) {
+                Text("Select something")
             }
             
             Spacer()
@@ -190,14 +194,14 @@ struct SignUpView: View {
                 }
             }
             
-            VStack {
+            /*VStack {
                 Button(action: session.toggleLV){
                     Text("Back to login screen.")
                         .font(.custom("Mina", size: 26))
                         .foregroundColor(Color.blue)
                 }
                 .padding(.horizontal, 32)
-            }
+            }*/
             
             Spacer()
             

@@ -24,11 +24,11 @@ struct FrontPage: View {
                         Text("Sign out")
                     }
                 }
-                
-            } else if (!session.loginView) {
-                    SignInView()
             } else {
-                   SignUpView()
+                NavigationView {
+                   SignInView()
+                }
+                .environment(\.horizontalSizeClass, .compact)
             }
         }
         .onAppear(perform: getUser)
