@@ -14,8 +14,13 @@ class SessionStore: ObservableObject {
     var didChange = PassthroughSubject<SessionStore, Never>()
     
     @Published var session: User? {didSet {self.didChange.send(self) }}
+    @Published var loginView: Bool = false;
     
     var handle: AuthStateDidChangeListenerHandle?
+    
+    func toggleLV() {
+        self.loginView = !self.loginView;
+    }
     
     // call back
     func listen() {

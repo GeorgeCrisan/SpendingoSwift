@@ -16,7 +16,7 @@ struct FrontPage: View {
     }
     
     var body: some View {
-        Group {
+        VStack {
             if (session.session != nil) {
                 VStack {
                     Text("You are logged in!");
@@ -25,8 +25,10 @@ struct FrontPage: View {
                     }
                 }
                 
+            } else if (!session.loginView) {
+                    SignInView()
             } else {
-                LoginForm()
+                   SignUpView()
             }
         }
         .onAppear(perform: getUser)
