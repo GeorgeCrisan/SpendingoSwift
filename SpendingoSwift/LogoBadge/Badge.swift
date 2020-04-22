@@ -14,8 +14,8 @@ struct Badge: View {
             BadgeBackground()
             BadgeText()
                 .foregroundColor(Color.white)
-                
         }
+        
     }
 }
 

@@ -27,6 +27,8 @@ struct FrontPage: View {
             } else {
                 NavigationView {
                    SignInView()
+                    .navigationBarTitle("Log in", displayMode: .inline)
+                    .navigationBarHidden(false)
                 }
                 .environment(\.horizontalSizeClass, .compact)
             }

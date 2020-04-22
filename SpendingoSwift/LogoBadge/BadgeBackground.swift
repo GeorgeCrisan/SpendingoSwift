@@ -56,6 +56,7 @@ struct BadgeBackground: View {
                 .aspectRatio(1, contentMode: .fit)
                 .blur(radius: /*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
         }
+        .frame(width: 200, height: 200, alignment: .center )
     }
 }
 

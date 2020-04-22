@@ -16,6 +16,7 @@
 		0DA7C056244E229E0036B684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7C055244E229E0036B684 /* Assets.xcassets */; };
 		0DA7C059244E229F0036B684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7C058244E229E0036B684 /* Preview Assets.xcassets */; };
 		0DA7C05C244E229F0036B684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7C05A244E229F0036B684 /* LaunchScreen.storyboard */; };
+		0DB951B02450C292008E8BE8 /* Mina-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DB951AF2450C292008E8BE8 /* Mina-Bold.ttf */; };
 		0DBEBC8F244E380200BE5D5C /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEBC8E244E380200BE5D5C /* FiraSans-Bold.ttf */; };
 		0DBEBC91244E380A00BE5D5C /* FiraSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEBC90244E380A00BE5D5C /* FiraSans-Black.ttf */; };
 		0DBEBC93244E382C00BE5D5C /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEBC92244E382C00BE5D5C /* FiraSans-Regular.ttf */; };
@@ -41,6 +42,7 @@
 		0DA7C058244E229E0036B684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DA7C05B244E229F0036B684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA7C05D244E229F0036B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB951AF2450C292008E8BE8 /* Mina-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mina-Bold.ttf"; sourceTree = "<group>"; };
 		0DBEBC8E244E380200BE5D5C /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
 		0DBEBC90244E380A00BE5D5C /* FiraSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Black.ttf"; sourceTree = "<group>"; };
 		0DBEBC92244E382C00BE5D5C /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		0DBEBC8A244E369900BE5D5C /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				0DB951AF2450C292008E8BE8 /* Mina-Bold.ttf */,
 				0DBEBC95244E38DC00BE5D5C /* Mina-Regular.ttf */,
 				0DBEBC90244E380A00BE5D5C /* FiraSans-Black.ttf */,
 				0DBEBC92244E382C00BE5D5C /* FiraSans-Regular.ttf */,
@@ -233,6 +236,7 @@
 			files = (
 				0DBEBC96244E38DC00BE5D5C /* Mina-Regular.ttf in Resources */,
 				0DBEBC93244E382C00BE5D5C /* FiraSans-Regular.ttf in Resources */,
+				0DB951B02450C292008E8BE8 /* Mina-Bold.ttf in Resources */,
 				0D375967244E2383003B3322 /* Configs in Resources */,
 				0DA7C05C244E229F0036B684 /* LaunchScreen.storyboard in Resources */,
 				0D48E305244E75C80044EA7A /* GoogleService-Info.plist in Resources */,

@@ -14,13 +14,9 @@ class SessionStore: ObservableObject {
     var didChange = PassthroughSubject<SessionStore, Never>()
     
     @Published var session: User? {didSet {self.didChange.send(self) }}
-    @Published var loginView: Bool = false;
+    //@Published var createOrReset: Bool = false;
     
     var handle: AuthStateDidChangeListenerHandle?
-    
-    func toggleLV() {
-        self.loginView = !self.loginView;
-    }
     
     // call back
     func listen() {
@@ -32,6 +28,10 @@ class SessionStore: ObservableObject {
                 self.session = nil
             }
         })
+    }
+    
+    func resetPassword (email: String, handler: @escaping AuthDataResultCallback) {
+        Auth.auth().sendPasswordReset(withEmail: email);
     }
     
     func updateUser (displayName: String, handler: @escaping AuthDataResultCallback) {
