@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D375967244E2383003B3322 /* Configs in Resources */ = {isa = PBXBuildFile; fileRef = 0D375966244E2383003B3322 /* Configs */; };
 		0D48E303244E691F0044EA7A /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48E302244E691F0044EA7A /* LoginForm.swift */; };
+		0DA5BD712450D5A700F58CFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DA5BD702450D5A700F58CFB /* GoogleService-Info.plist */; };
 		0DA7C050244E229E0036B684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C04F244E229E0036B684 /* AppDelegate.swift */; };
 		0DA7C052244E229E0036B684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C051244E229E0036B684 /* SceneDelegate.swift */; };
 		0DA7C054244E229E0036B684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7C053244E229E0036B684 /* ContentView.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		0D375966244E2383003B3322 /* Configs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configs; sourceTree = "<group>"; };
 		0D48E302244E691F0044EA7A /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		0DA5BD702450D5A700F58CFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0DA7C04C244E229E0036B684 /* SpendingoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendingoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA7C04F244E229E0036B684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA7C051244E229E0036B684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0DA7C055244E229E0036B684 /* Assets.xcassets */,
 				0DA7C05A244E229F0036B684 /* LaunchScreen.storyboard */,
 				0DA7C05D244E229F0036B684 /* Info.plist */,
+				0DA5BD702450D5A700F58CFB /* GoogleService-Info.plist */,
 				0DA7C057244E229E0036B684 /* Preview Content */,
 			);
 			path = SpendingoSwift;
@@ -238,6 +241,7 @@
 				0DA7C05C244E229F0036B684 /* LaunchScreen.storyboard in Resources */,
 				0DA7C059244E229F0036B684 /* Preview Assets.xcassets in Resources */,
 				0DA7C056244E229E0036B684 /* Assets.xcassets in Resources */,
+				0DA5BD712450D5A700F58CFB /* GoogleService-Info.plist in Resources */,
 				0DBEBC8F244E380200BE5D5C /* FiraSans-Bold.ttf in Resources */,
 				0DBEBC91244E380A00BE5D5C /* FiraSans-Black.ttf in Resources */,
 			);
