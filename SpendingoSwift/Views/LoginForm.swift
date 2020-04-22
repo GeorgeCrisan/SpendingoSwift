@@ -302,11 +302,11 @@ struct SignUpView: View {
                 if(self.displayName.count < 4){
                     HStack {
                             Image(systemName: "exclamationmark.circle")
-                                .foregroundColor(Color.red)
+                                .foregroundColor(Color(appBlue))
                                 .font(.system(size: 20))
                             Text("Display name must have minimum 3 charactes.")
                                 .font(.custom("FireSans-Bold", size: 14))
-                                .foregroundColor(Color.red)
+                                .foregroundColor(Color(appBlue))
                         }
                         .frame(maxWidth: 330 , maxHeight: 50)
                     }
